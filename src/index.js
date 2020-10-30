@@ -36,13 +36,27 @@ let logo3=document.createElement('div');
 let logo4=document.createElement('div');
 
 branch.style.width='100%';
-branch.style.height='100px';
+branch.style.height='230px';
+branch.style.display='grid';
+branch.style.gridTemplateColumns='1fr 1fr 1fr 1fr'
 
+logo1.style.backgroundImage='url(../image/tt.jpg)';
+logo1.style.backgroundSize='cover';
+
+logo2.style.background='url(../image/chesse.jpg)';
+logo2.style.backgroundSize='cover';
+
+logo3.style.background='url(../image/org.jpg)';
+logo3.style.backgroundSize='cover';
+
+logo4.style.background='url(../image/chef.jpg)';
+logo4.style.backgroundSize='cover';
 
 branch.appendChild(logo1);
 branch.appendChild(logo2);
 branch.appendChild(logo3);
 branch.appendChild(logo4);
+container.appendChild(branch)
 
 
 
