@@ -5,7 +5,7 @@ let navbar=document.createElement('nav');
 navbar.style.color='#007a43';
 navbar.style.background='white';
 navbar.style.position='fixed';
-navbar.style.width='100%';
+navbar.style.width='1600px';
 navbar.style.height='60px';
 
 function hover (e){
@@ -20,7 +20,7 @@ function hoverend (e){
 
 
 let ul=document.createElement('ul');
-ul.style.width='40%';
+ul.style.width='28%';
 
 ul.style.listStyle='none';
 ul.style.marginTop='0px'
