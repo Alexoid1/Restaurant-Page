@@ -1,3 +1,4 @@
+const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -7,3 +8,4 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
 };
+
