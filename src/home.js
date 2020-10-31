@@ -21,7 +21,7 @@ export function homePage(){
     parr.style.color='white';
     parr.style.fontSize='85px';
     parr.style.marginTop='0';
-    parr.style.textAlign='center'
+    parr.style.textAlign='center';
     parr.textContent="Pablo's Pizza the best pizza.";
     home.appendChild(parr);
 
@@ -38,7 +38,7 @@ export function homePage(){
     branch.style.width='100%';
     branch.style.height='230px';
     branch.style.display='grid';
-    branch.style.gridTemplateColumns='1fr 1fr 1fr 1fr'
+    branch.style.gridTemplateColumns='1fr 1fr 1fr 1fr';
     
    
     logo1.appendChild(img1);

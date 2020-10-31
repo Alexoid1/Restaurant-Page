@@ -12,6 +12,7 @@ export function menuNav(){
     navbar.style.position='fixed';
     navbar.style.width='1600px';
     navbar.style.height='60px';
+    
 
     function hover (e){
         e.target.style.background='#007a43';
@@ -41,6 +42,7 @@ export function menuNav(){
     li1.style.padding='15px 10px';
     li1.style.fontSize='20px';
     li1.style.fontWeight='bolder';
+    ul.style.fontFamily='Arial'
     li1.style.borderRadius='20px';
     let li2=document.createElement('li');
     let li3=document.createElement('li');
