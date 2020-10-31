@@ -5,8 +5,6 @@ export function footerPage(){
     let fcontact=document.createElement('a');
     let flinked=document.createElement('a');
     
-    footer.style.width='100%';
-    footer.style.height='100px';
     fpar.textContent='Made by Alexoid.';
     fpar.style.fontSize='15px';
     fpar.style.fontFamily='Arial';
