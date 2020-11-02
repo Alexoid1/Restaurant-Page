@@ -14,7 +14,6 @@ body {
   width: 100%;
   height: 100%;
   background: #007a43;
-  
 }
 
 .navbar {
@@ -31,7 +30,7 @@ body {
   margin: 10px 15px;
   display: flex;
   flex-direction: row;
-  justify-content:flex-start;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -44,6 +43,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.combo1 ul li {
+  margin-top: 15px;
+}
+
 .ulnav li:hover {
   color: white;
   background: #007a43;
@@ -51,7 +54,7 @@ body {
 
 .home {
   height: 580px;
-  background-image:url(../../image/pizza.jpeg);
+  background-image: url(../../image/pizza.jpeg);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -126,20 +129,15 @@ footer a:hover {
 }
 
 .concombo1 {
-  width:100%;
-  height:200px;
-  background:white;
-  border-radius:15px;
-  overflow:hidden;
-}
-
-.combo1 ul li {
-  margin-top: 15px;
+  width: 100%;
+  height: 200px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .comboH1 {
-  text-align:center;
-  
+  text-align: center;
 }
 
 .comImg {
@@ -147,10 +145,10 @@ footer a:hover {
   transition: ease 0.5s;
 }
 
-.comboC1{
-  font-weight:bolder;
-  font-size:27px;
-  text-align:center;
+.comboC1 {
+  font-weight: bolder;
+  font-size: 27px;
+  text-align: center;
 }
 
 .comImg:hover {
@@ -158,7 +156,7 @@ footer a:hover {
 }
 
 .contact {
-  padding-top:110px;
+  padding-top: 110px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -185,8 +183,8 @@ form {
   border-radius: 15px;
   border: 2px solid black;
   height: 360px;
-
 }
+
 .formTitle {
   text-align: center;
   font-weight: bolder;
@@ -198,7 +196,7 @@ form {
 
 .message {
   display: block;
-  margin:20px auto;
+  margin: 20px auto;
   height: 40px;
   width: 80%;
 }
@@ -215,7 +213,7 @@ form {
   margin: 20px auto;
 }
 
-.buton:hover{
+.buton:hover {
   background: whitesmoke;
   color: #007a43;
 }
