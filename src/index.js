@@ -1,4 +1,3 @@
-/* eslint linebreak-style: ["error", "windows"] */
 /* eslint-disable import/prefer-default-export */
 import { menuNav } from './navbar';
 import { homePage } from './home';

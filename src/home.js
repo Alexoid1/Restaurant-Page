@@ -1,4 +1,3 @@
-/* eslint linebreak-style: ["error", "windows"] */
 /* eslint-disable import/prefer-default-export */
 export function homePage() {
   const container = document.getElementById('content');
