@@ -1,44 +1,51 @@
+/* eslint linebreak-style: ["error", "windows"] */
+/* eslint-disable import/prefer-default-export */
+import { homePage } from './home';
+import { footerPage } from './footer';
+import { menuPage } from './menu';
+import { contactPage } from './contact';
 
-import {homePage} from './home.js';
-import {footerPage} from './footer.js';
-import {menuPage} from './menu.js'
-export function menuNav(){
+export function menuNav() {
+  const container = document.getElementById('content');
+  const navbar = document.createElement('nav');
+  navbar.classList.add('navbar');
 
-    let container=document.getElementById('content');    
-    let navbar=document.createElement('nav');
-    navbar.classList.add('navbar');
-    
-    let ul=document.createElement('ul');
-    ul.classList.add('ulnav')
-     
-    let li1=document.createElement('li');
-    li1.textContent='Home';
-    
-    let li2=document.createElement('li');
-    li2.textContent='Menu';
+  const ul = document.createElement('ul');
+  ul.classList.add('ulnav');
 
-    let li3=document.createElement('li');
-    li3.textContent='About';
+  const li1 = document.createElement('li');
+  li1.textContent = 'Home';
 
-    ul.appendChild(li1);
-    ul.appendChild(li2);
-    ul.appendChild(li3);
-    navbar.appendChild(ul);
-    container.appendChild(navbar);
+  const li2 = document.createElement('li');
+  li2.textContent = 'Menu';
 
-    li1.addEventListener('click',function(){
-        container.innerHTML='';
-        menuNav();
-        homePage();
-        footerPage();
-    });
-    
-    li2.addEventListener('click',function(){
-        container.innerHTML='';
-        menuNav();
-        menuPage();
-        footerPage();
-    });
+  const li3 = document.createElement('li');
+  li3.textContent = 'About';
 
+  ul.appendChild(li1);
+  ul.appendChild(li2);
+  ul.appendChild(li3);
+  navbar.appendChild(ul);
+  container.appendChild(navbar);
+
+  li1.addEventListener('click', () => {
+    container.innerHTML = '';
+    menuNav();
+    homePage();
+    footerPage();
+  });
+
+  li2.addEventListener('click', () => {
+    container.innerHTML = '';
+    menuNav();
+    menuPage();
+    footerPage();
+  });
+
+  li3.addEventListener('click', () => {
+    container.innerHTML = '';
+    menuNav();
+    contactPage();
+    footerPage();
+  });
 }
-

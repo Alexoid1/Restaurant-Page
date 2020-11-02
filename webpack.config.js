@@ -1,4 +1,4 @@
-const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
+/* eslint linebreak-style: ["error", "windows"] */
 const path = require('path');
 
 module.exports = {
@@ -8,4 +8,3 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
 };
-

@@ -1,22 +1,11 @@
-import {menuNav} from './navbar.js'
-import {homePage} from './home.js'
-import {footerPage} from './footer.js'
-
-let container=document.getElementById('content');
-
-
+/* eslint linebreak-style: ["error", "windows"] */
+/* eslint-disable import/prefer-default-export */
+import { menuNav } from './navbar';
+import { homePage } from './home';
+import { footerPage } from './footer';
 
 menuNav();
 
 homePage();
 
 footerPage();
-
-
-
-
-
-
-
-  
-
