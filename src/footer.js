@@ -6,19 +6,11 @@ export function footerPage(){
     let flinked=document.createElement('a');
     
     fpar.textContent='Made by Alexoid.';
-    fpar.style.fontSize='15px';
-    fpar.style.fontFamily='Arial';
-    fpar.style.fontWeight='bold';
-    fpar.style.color='white';
     fcontact.textContent='GitHub';
-    fcontact.style.textDecoration='none';
     fcontact.href='https://github.com/Alexoid1';
     flinked.textContent='LinkedIn';
-    flinked.style.marginRight='10px'
-    flinked.style.textDecoration='none';
     flinked.href='https://www.linkedin.com/in/pablo-alexis-zambrano-coral-7a614a189/';
 
-    footer.style.textAlign='center';
     
 
     footer.appendChild(fpar);
