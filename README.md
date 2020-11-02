@@ -1,4 +1,4 @@
-# JavaScript Library
+# JavaScript Restaurant Page
  The main goal of this project is to create a restaurant web-site with out a structured html file just a single container all the elements and content has to be created with javascript this is javascript application made of different modules using webpack.
 
 ![screenshot](./img/image.png)
