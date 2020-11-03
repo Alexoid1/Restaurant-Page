@@ -1,4 +1,3 @@
-/* eslint linebreak-style: ["error", "windows"] */
 const path = require("path");
 
 module.exports = {
