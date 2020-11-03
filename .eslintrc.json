@@ -14,8 +14,8 @@
     "no-shadow": "off",
     "no-param-reassign": "off",
     "eol-last": "off",
-    "arrow-parens": "off",
-    "linebreak-style": ["error", "unix"]
+    "arrow-parens": "off"
+    
   },
   "ignorePatterns": ["dist/", "build/"]
 }
