@@ -11,7 +11,7 @@
 - Css
 
 ## Live Demo
-[Live Demo Link](https://rawcdn.githack.com/Alexoid1/Restaurant-Page/bf56867f79712fb56a179c3479458143b8d4695b/dist/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Alexoid1/Restaurant-Page/b29fa31666ce1d022e081a20c1c392d60d7db8c8/dist/index.html)
  
 
 ### Prerequisites
