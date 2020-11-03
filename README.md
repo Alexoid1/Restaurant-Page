@@ -25,6 +25,8 @@ To get a local copy up and running follow these simple example steps:
 
 - Go to https://github.com/Alexoid1/Restaurant-Page and clone the repo using: <br>
 `https://github.com/Alexoid1/Restaurant-Page.git` in your terminal.
+ - Type (npm i);
+
 
 ### Github Actions
 
